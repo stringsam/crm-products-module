@@ -5,7 +5,6 @@ namespace Crm\ProductsModule\Components;
 use Crm\ApplicationModule\Widget\BaseWidget;
 use Crm\ApplicationModule\Widget\WidgetManager;
 use Crm\UsersModule\Repository\UserMetaRepository;
-use Nette\Database\Connection;
 
 class AvgProductsPaymentWidget extends BaseWidget
 {
@@ -33,6 +32,7 @@ class AvgProductsPaymentWidget extends BaseWidget
                 ->select('AVG(value) AS avg_product_payment')
                 ->where(['key' => 'product_payments', 'user_id' => $usersIds])
                 ->fetch();
+
             $this->template->avgProductPayments = $average->avg_product_payment;
 
             $this->template->setFile(__DIR__ . DIRECTORY_SEPARATOR . $this->templateName);
