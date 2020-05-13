@@ -76,6 +76,8 @@ data:
 			code: Položka 'Název' je povinná
 			icon: Položka 'Ikona' je povinná
 admin:
+	segments:
+		avg_product_payment: Průměrný počet plateb za produkty
 	products:
 		default:
 			header: Produkty

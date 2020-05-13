@@ -78,6 +78,8 @@ data:
 			icon: Field 'Icon' is mandatory
 
 admin:
+	segments:
+		avg_product_payment: Average payments for products
 	products:
 		default:
 			header: Products

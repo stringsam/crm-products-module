@@ -78,6 +78,8 @@ data:
 			icon: Položka 'Ikona' je povinná
 
 admin:
+	segments:
+		avg_product_payment: Average payments for products
 	products:
 		default:
 			header: Produkty
