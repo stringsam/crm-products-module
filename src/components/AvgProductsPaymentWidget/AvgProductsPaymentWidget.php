@@ -26,7 +26,6 @@ class AvgProductsPaymentWidget extends BaseWidget
     public function render(array $usersIds)
     {
         if (count($usersIds)) {
-            $usersIds = implode(',', $usersIds);
             $average = $this->userMetaRepository
                 ->getTable()
                 ->select('AVG(value) AS avg_product_payment')
