@@ -80,7 +80,7 @@ data:
 admin:
 	component:
 		avg_product_payment_widget:
-			avg_product_payment: Average payments for products
+			avg_product_payment: Priemerný počet platieb za produkty
 	products:
 		default:
 			header: Produkty
