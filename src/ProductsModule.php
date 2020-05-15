@@ -229,5 +229,9 @@ class ProductsModule extends CrmModule
             'payments.admin.total_user_payments',
             $this->getInstance(\Crm\ProductsModule\Components\TotalShopPaymentsWidget::class)
         );
+        $widgetManager->registerWidget(
+            'segment.detail.statspanel.row',
+            $this->getInstance(\Crm\ProductsModule\Components\AvgProductsPaymentWidget::class)
+        );
     }
 }

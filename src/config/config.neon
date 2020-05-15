@@ -22,6 +22,7 @@ services:
 	- Crm\ProductsModule\Components\ProductItemsListWidget
 	- Crm\ProductsModule\Components\ProductStatsFactoryInterface
 	- Crm\ProductsModule\Components\TotalShopPaymentsWidget
+	- Crm\ProductsModule\Components\AvgProductsPaymentWidget
 
 	- Crm\ProductsModule\DataProvider\PaymentFormDataProvider
 	- Crm\ProductsModule\DataProvider\PaymentsAdminFilterFormDataProvider

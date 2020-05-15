@@ -78,6 +78,9 @@ data:
 			icon: Field 'Icon' is mandatory
 
 admin:
+	component:
+		avg_product_payment_widget:
+			avg_product_payment: Average payments for products
 	products:
 		default:
 			header: Products
